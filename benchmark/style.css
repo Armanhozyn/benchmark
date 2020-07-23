@@ -1,0 +1,334 @@
+body{
+	font-family:arial;
+}
+/*navbar-top*/
+.bg-header{
+	background : #57B0DB;
+
+}
+.header-r{
+	color:white;
+	font-size:16px;
+}
+.header-r:hover{
+	color:white;
+}
+/* navbar top end */
+
+/*navbar*/
+.nav-item{
+	margin-right:20px;
+	margin-top:20px;
+}
+.nav-link{
+	font-size : 13px;
+	font-weight: bold;
+}
+.nav-bg{
+	background:#FFFFFF;
+	
+}
+.nav-font{
+	color:#687074;
+}
+@media (min-width:1200px){
+	.nav-link{
+		font-size : 15px;
+		font-weight: bold;
+	}
+	..nav-item{
+	margin-right:25px;
+	}
+	.dropdown:hover>.dropdown-menu{
+	display:block;
+	}
+}
+.dropdown-item{
+	border-top: 2px solid #57B0DB;
+}
+.navbar{
+	display:block;
+}
+/*navbar End */
+
+/*Body*/
+
+.headline{
+	display:block;
+	margin: 45px 0 25px;
+	border-bottom: 1px dotted #e4e9f0;
+}
+.headline h2{
+	color: #3f4040;
+    margin: 0 0 -2px;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid #57B0DB;
+	font-size:21px;
+}
+p, a, li {
+    line-height: 1.6;
+}
+h1, h2, h3, h4, h5 {
+    margin-top: 5px;
+    text-shadow: none;
+    font-weight: normal !important;
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.carousal-v1 {
+	padding:0px;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.sidebar-slider{
+	background: rgba(0,0,0,.7);
+	margin-top: auto;
+}
+.carousel-control-prev-icon{
+	background-color: #107eb3;
+	color: black;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background-size: 60% 60%;
+
+}
+.carousel-control-next-icon{
+	background-color: #107eb3;
+	color: black;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background-size: 60% 60%;
+}
+.carousel-control-next{
+	justify-content: flex-end;	
+
+}
+
+.carousel-control-prev{
+	    justify-content: flex-start;
+		   
+}
+.slid-a{
+	text-decoration: none;
+  padding: 8px 16px;
+}
+
+/*BODY END*/
+
+/*sidebar */
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+
+.card:hover{
+	-webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.inner{
+	overflow:hidden;
+}
+
+.inner img{
+	transition:all 0.4s ease-in-out
+}
+.inner:hover img{
+	transform: scale(1.5);
+	cursor:pointer;
+}
+
+/*sidebar Finish*/
+
+/*footer */
+
+.footer{
+	color:white;
+	margin-top: 40px;
+	padding : 20px 0 30px;
+	background : #57B0DB;
+}
+.footer a ,.footer p{
+	font-size:14px;
+}
+
+
+/* footer End */
+
+
+/*recognations Body */
+.margin-bottom-40{
+	margin-bottom:40px;
+}
+.pull-left{
+	float:left!important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	color:#686885;
+}
+.breadcrumb{
+	background:#F7F7F7;
+	border-bottom:
+}
+@media (min-width: 576px){
+.jumbotron {
+    padding: 1rem 2rem;
+}
+}
+.benchmark-lead{
+	font-size:1.2rem;
+}
+strong{
+	font-weight:bold;
+}
+.margin-bottom-150{
+	margin-bottom:150px;
+}
+.contact-font{
+	font-size:10px;
+}
+
+
+/* recognations Body End */
+
+/*clients */
+
+.margin-bottom-0{
+	margin-bottom:0px;
+}
+
+
+/*clients End */
+
+/*contact*/
+.color-blue{
+	color:blue;
+}
+.margin-bottom-20{
+	margin-bottom:20px;
+}
+
+
+/*contact End */
+
+/* Proucts */
+.card-hov:hover{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.card-hov:hover .card-body{
+	background: #57B0DB;
+	color:white;
+}
+
+
+/*Proucts end */
+ 
+ /*Bussiness Units */
+ .img-responsive{
+	 display:block;
+	 max-width:100%;
+	 height:auto;
+ }
+.li-hov:hover{
+	background:#ddd;
+}
+.bg-lines{
+	background:#1abc9c;
+}
+.bg-floor{
+	background:#e67e22;
+}
+.bg-mach{
+	background:#e74c3c;
+}
+.bg-capacity{
+	background:#2ecc71;
+}
+
+.boxes{
+	height:196px;
+	display:grid;
+}
+.boxes-height{
+	height:196px;
+}
+ 
+  /*Bussiness Units End */
+/*Machinery*/
+.prev{
+	position:initial;
+	width: 2.5rem;
+	display: inline-block;
+	color: blue;
+}
+.next{
+	position:initial;
+	width: 2.5rem;
+	display: inline-block;
+	color: blue;
+}
+.btn-act:active{
+	color:blue !important;
+}
+.btn-act:focus{
+	color:blue !important;
+}
+/*Machinery End*/
+
+
+/*Gallerry*/
+
+.overlay-inner{
+	position:relative;
+}
+.overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:  #000;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+}
+.overlay-inner:hover .overlay {
+  height: 100%;
+  opacity:0.7;
+}
+.search-icon{
+	color: white;
+	position: absolute;
+	font-size:50px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+/*Gallerry End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
